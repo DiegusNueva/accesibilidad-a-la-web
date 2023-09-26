@@ -1,0 +1,54 @@
+.example1{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    color: blue;
+    border: 1px solid black;
+}
+
+.example2{
+    width: 200px;
+    height: 200px;
+    background-color: #354928;
+    color: #fc5340;
+    border: 1px solid black;
+}
+
+.example3{
+    width: 200px;
+    height: 200px;
+    background-color: #354588;
+    color: #fc5580;
+    border: 1px solid black;
+}
+
+/* Ejemplo de resaltar elementos enfocados */
+:focus {
+    outline: 2px solid #0078d4;
+}
+
+/* Ejemplo de tamaño de fuente adaptable */
+.responsive-text {
+    font-size: 1.2em;
+}
+
+/* Ejemplo de ocultar contenido visualmente */
+.visually-hidden {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+}
+
+/* Ejemplo de estilos de enlace distintivos */
+.distinguished-links {
+    color: #0078d4;
+    text-decoration: underline;
+}
+
+
+
